@@ -1,0 +1,198 @@
+// TopFilter 组件样式
+.TopFilterComponent {
+    .filter-wrap {
+        width: 100vw;
+        height: 80px;
+        background: #0c00bf;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .city {
+            width: 20vw;
+            height: 80px;
+            color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding-left: 10px;
+
+            .icon {
+                font-size: 20px;
+            }
+
+            .name {
+                font-size: 30px;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+
+        .search {
+            width: 80vw;
+            height: 80px;
+            background: #0c00bf;
+        }
+    }
+}
+
+// Standard 组件样式
+.StandardComponent {
+    .standard-wrap {
+        padding: "0 20px 20px";
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .arrow-wrap {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-left: 120px;
+
+            .arrow {
+                width: 0;
+                height: 0;
+                border: 20px solid transparent;
+                border-width: 20px 15px;
+                border-bottom-color: #3b32b4;
+            }
+        }
+
+        .standard {
+            width: 94vw;
+            height: 500px;
+            border-radius: 30px;
+            background: linear-gradient(to right, #0c00bf 0%, #9a95dd 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .title-wrap {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                color: #f2f2f2;
+                margin-bottom: 15px;
+
+                .title {
+                    padding-left: 20px;
+                    font-weight: bold;
+                    font-size: 35px;
+                }
+
+                .extra {
+                    font-size: 24px;
+                    padding-right: 20px;
+                }
+            }
+
+            .content {
+                width: 94%;
+                border-radius: 20px;
+                background: #ffffff;
+            }
+        }
+    }
+}
+
+// TechService 组件样式
+.TechServiceComponent {
+    height: calc(100vh - 86px);
+    background: #f2f2f2;
+    overflow: scroll;
+
+    .tabcontent-wrap {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        .service-card {
+            margin-top: 20px;
+            width: 90vw;
+
+            .card-content {
+                display: flex;
+                flex-direction: row;
+
+                .card-left {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 300px;
+
+                    .img {
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 5%;
+                    }
+                }
+
+                .detail {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 20px;
+
+                    .title {
+                        font-weight: bold;
+                    }
+
+                    .tag-wrap {
+                        margin-top: 5px;
+
+                        .tag {
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .price-wrap {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-top: 10px;
+
+                        .price {
+                            font-size: 40px;
+                            font-weight: bolder;
+                            color: #0c00bf;
+                        }
+
+                        .unit {
+                            margin-left: 5px;
+                            font-weight: bolder;
+                            font-size: 20px;
+                        }
+
+                        .sold {
+                            margin-left: 10px;
+                            font-weight: bold;
+                            font-size: 24px;
+                        }
+
+                        .star {
+                            margin-left: 10px;
+                            font-weight: bold;
+                            font-size: 24px;
+                        }
+                    }
+
+                    .comment {
+                        border-radius: 5px;
+                        padding: 10px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #707070;
+                        background: #f2f2f2;
+                    }
+                }
+            }
+        }
+    }
+}
