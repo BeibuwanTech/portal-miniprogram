@@ -34,6 +34,9 @@ class App extends Component {
       'pages/community/index',
       'pages/message/index',
       'pages/mine/index',
+      'pages/standard/index',
+      'pages/standard/search',
+      'pages/standard/detail',
     ],
     window: {
       backgroundTextStyle: 'dark',

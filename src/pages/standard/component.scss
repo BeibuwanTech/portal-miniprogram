@@ -1,0 +1,68 @@
+// Standard 组件样式
+.StandardComponent {
+  height: calc(100vh - 86px);
+  background: #f2f2f2;
+  overflow: scroll;
+
+  .tabcontent-wrap {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    .standard-card {
+      margin-top: 20px;
+      width: 90vw;
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        color: #707070;
+
+        .title {
+          display: inline;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+// TopFilter 组件样式
+.TopFilterComponent {
+  .filter-wrap {
+    width: 100vw;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .category {
+      width: 35vw;
+      height: 80px;
+      color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding-left: 10px;
+
+      .icon {
+        font-size: 20px;
+      }
+
+      .name {
+        font-size: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+
+    .search {
+      width: 75vw;
+      height: 80px;
+      //   background: #0c00bf;
+    }
+  }
+}

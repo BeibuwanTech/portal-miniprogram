@@ -1,0 +1,71 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  .formItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ffffff;
+    min-height: 80px;
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: 30px;
+
+    .title {
+      font-weight: bold;
+      min-width: 25%;
+    }
+
+    .formInput {
+      flex: 1;
+      color: #707070;
+      text-align: center;
+    }
+
+    .formRadio {
+      color: #707070;
+      text-align: center;
+    }
+
+    .formCheckbox {
+      color: #707070;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.button-wrapper {
+  position: fixed;
+  bottom: 0;
+  height: 160px;
+  background: #ffffff;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.standard-card {
+  margin-top: 20px;
+  width: 90vw;
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    color: #707070;
+
+    .title {
+      display: inline;
+      font-weight: bold;
+    }
+  }
+}
