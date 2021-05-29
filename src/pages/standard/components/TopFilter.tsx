@@ -12,7 +12,7 @@ const Index = () => {
                     <AtIcon value='chevron-down'></AtIcon>
                     <View className='name'>机械制造</View>
                 </View>
-                <AtSearchBar className='search' showActionButton actionName='高级检索' value={search} onChange={(search) => { setSearch(search) }}></AtSearchBar>
+                <AtSearchBar className='search' showActionButton actionName='高级检索' value={search} onChange={(search) => { setSearch(search) }} onActionClick={() => { Taro.navigateTo({ url: '/pages/standard/search' }) }}></AtSearchBar>
             </View>
         </View>
     )

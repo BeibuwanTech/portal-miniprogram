@@ -27,7 +27,7 @@ export const Menu = [
     { image: TRADE, value: "链上交易", url: "/pages/ip/index" },
     { image: LIVE, value: "科创直播", url: "/pages/ip/index" },
     { image: ACTIVITY, value: "热门活动", url: "/pages/ip/index" },
-    { image: STANDARD, value: "标准快查", url: "/pages/ip/index" },
+    { image: STANDARD, value: "标准快查", url: "/pages/standard/index" },
     { image: TALENT, value: "人才认证", url: "/pages/ip/index" },
     { image: ACTIVITY, value: "热门活动", url: "/pages/ip/index" },
     { image: BIGDATA, value: "科技大数据", url: "/pages/ip/index" },
